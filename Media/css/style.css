@@ -1,0 +1,101 @@
+body{
+    background-color: #051707;
+    background-image: url(../imagens/imagem01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#tabela{
+    width: 600px;
+    height: 356px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border: solid 5px #000000;
+    background-color: transparent;
+    box-shadow: 3px 3px black, 1em 0 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    
+    
+}
+
+#titulo{
+    background-color: black;
+    height: 80px;
+    width: 615px;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+   
+    
+}
+
+p{
+    font-family: Segoe UI;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: overline;
+}
+footer{
+    font-family: verdana;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#colunaMed{
+    background-color: black;
+    height:78px;
+    width: 613px;
+}  
+
+h2{
+   color: white;
+   margin-top: auto;
+   font-family: cursive;
+   padding-top: 4px;
+}
+
+#button{
+    text-align: center;
+    border-radius: 12px;
+    
+}
+.button:hover, .button:focus {
+  color: white;
+  transform: translateY(2px);
+  background-color: #051707;
+  
+}
+
+#botaoReset{
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+    color: #ffffff;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    margin-top: -30px;
+    margin-right: auto;
+}
+
+#botaoReset a{
+    color: white;
+    text-decoration: none;
+    
+}

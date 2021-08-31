@@ -1,0 +1,134 @@
+* {
+    background-color: #0c3a56;
+}
+
+* {
+    /*Tirar os elementos  de todas as <div>*/
+    padding: 0px;
+    margin: 0px;
+}
+
+#imagemFundo {
+    background-color: darkgrey;
+    height: 100%;
+    width: 100%;
+    background-image: url(../imagens/imagemFundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+#caixaMenu {
+
+    width: 150px;
+    height: 200px;
+    background-color: #000000;
+}
+
+
+.hamburguer {
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    padding: 7px 5px;
+
+}
+
+
+#ham {
+    border: 2px solid white;
+    width: 33px;
+    display: block;
+    margin: 5px 0px;
+
+}
+
+
+
+
+#ConteudoMenu {
+    background-image: linear-gradient(to right, black, #0c3a56, black);
+    height: 47px;
+}
+
+
+#menu {
+    width: inherit;
+    height: inherit;
+    background-color: #0c3a56;
+}
+
+.menuItem {
+    list-style: none;
+    width: inherit;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#itensSubMenu {
+    list-style: none;
+    width: inherit;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#itensSubMenu:hover {
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+    
+
+}
+
+#redesSociais {
+    float: right;
+}
+
+.menuItem:hover {
+    background-color: white;
+    color: #0c3a56;
+    cursor: pointer;
+    
+}
+
+.menuItem:hover > #caixaSubMenu {
+    /* display: block;*/
+    /*Permite manipular a tranparencia do elemento */
+    opacity: 1;
+    /*Permite aparecer co o elemento que foi oculto */
+    visibility: visible;
+    transition: 2s;
+    margin-left: 150px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+a {
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+
+#caixaSubMenu {
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    font-family: Roboto;
+    margin-top: -30px;
+    /* display: none;*/
+    opacity: 0;
+    visibility: hidden;
+
+}
