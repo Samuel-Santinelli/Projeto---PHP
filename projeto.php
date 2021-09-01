@@ -35,10 +35,10 @@
                         Menu
                         <div id="caixaSubMenu">
                             <ul id="itensSubMenu">
-                                <li class="menuItem"> <a href="http://localhost/Projetinho/ParImpar/ParImpar.php"> Par E Impar</a></li>
-                                <li class="menuItem"> <a href="http://localhost/Projetinho/Calculadora/SWITCH/calculadora_simples3.php"> Calculadora</a></li>
-                                <li class="menuItem"> <a href="http://localhost/Projetinho/Tabuada/tabuada.php">Tabuada</a></li>
-                                <li class="menuItem"> <a href="http://localhost/Projetinho/Media/calculos.php">Média</a></li>
+                                <li class="menuItem"> <a href="http://localhost/ds2t20212/samuel/Projetinho/Projeto---PHP/ParImpar/ParImpar.php"> Par E Impar</a></li>
+                                <li class="menuItem"> <a href="http://localhost/ds2t20212/samuel/Projetinho/Projeto---PHP/Calculadora/SWITCH/calculadora_simples3.php"> Calculadora</a></li>
+                                <li class="menuItem"> <a href="http://localhost/ds2t20212/samuel/Projetinho/Projeto---PHP/Tabuada/tabuada.php">Tabuada</a></li>
+                                <li class="menuItem"> <a href="http://localhost/ds2t20212/samuel/Projetinho/Projeto---PHP/Media/calculos.php">Média</a></li>
                             </ul>
                         </div>
                     </li>

@@ -1,15 +1,15 @@
 /*Tabuada*/
 
-body{
-   background-image: linear-gradient(to right, black, #0c3a56, black);
-    
+body {
+    background-image: linear-gradient(to right, black, #0c3a56, black);
+
 }
 
-form{
-    background-color: skyblue;  
+form {
+    background-color: skyblue;
     width: 800px;
-    height: 700px;  
-    border-radius: 10px;   
+    height: 700px;
+    border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
     left: 20%;
@@ -19,13 +19,13 @@ form{
     box-shadow: 5px 5px 10px #000000;
 }
 
-input{
+input {
     height: 36px;
     font-size: 1.3em;
     font-family: ROBOTO;
     border: 0;
     background: none;
-    display: block;        
+    display: block;
     margin: 20px auto;
     text-align: center;
     border: 2px solid #ffffff;
@@ -35,51 +35,63 @@ input{
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
-    
+
 }
 
-#botao{
-    color: #000000;    
+#botao {
+    color: #000000;
     font-size: 1.5em;
-    font-family: ROBOTO; 
-    
+    font-family: ROBOTO;
+
 }
-p{
+
+p {
     font-size: 1.3em;
-    font-family: ROBOTO; 
+    font-family: ROBOTO;
     text-align: center;
+    color: white;
 }
 
-h1{
+h1 {
     font-size: 1.8em;
-    font-family: ROBOTO; 
+    font-family: ROBOTO;
     text-align: center;
+    color: white;
 }
 
-#caixaBotao{
+
+h2 {
+    font-size: 1.0em;
+    font-family: ROBOTO;
+    text-align: center;
+    color: white;
+}
+
+#caixaBotao {
     padding-left: 20px;
     padding: 10px;
- 
-    
+
+
 }
-#botao{
+
+#botao {
     background-color: white;
     width: 110px;
     height: 50px;
     font-size: 1.2em;
-   
+
 }
 
 
 
-#CaixaResultado{
-    width: 130px;
-    height: 140px;
-    padding: 50px;
+footer {
+    width: 190px;
+    height: 250px;
+    padding: 20px;
     box-shadow: 5px 5px 10px #000000;
 
-    
 }
+
 #caixaMenu {
     width: 150px;
     height: 200px;
@@ -113,4 +125,3 @@ h1{
     background-image: linear-gradient(to right, black, #0c3a56, black);
     height: 47px;
 }
-
