@@ -1,32 +1,135 @@
-#resultado{
+body{
+     background-image: linear-gradient(to right, black, darkred, black);
+    
+}
+
+
+form {
+    background-color: darkred;
+    width: 800px;
+    height: 1350px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 20%;
+    right: 80%;
+    border-radius: 10px;
+    padding: 33px;
+    box-shadow: 5px 5px 10px #000000;
+
+
+
+}
+
+
+#resultado {
     width: 500px;
     height: 700px;
-   background-color: beige;
+    background-color: beige;
     float: none;
-    
+
 }
 
 
 
-#tabela{
+#tabela {
     width: 50%;
     height: inherit;
-    background-color: azure;
-    
+    background-color: #e4481f;
+    box-shadow: 5px 5px 10px #000000;
+
 }
 
 
-#tabela1{
+#segundaTabela {
     width: 50%;
     height: inherit;
-    background-color: azure;
-    
+    background-color: #e4481f;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 
-.quantidade{
+.quantidade {
     width: 50%;
     height: 150px;
-    background-color: paleturquoise;
+    background-color: #9e2a2a;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+header {
+    font-size: 1.9em;
+    font-family: ROBOTO;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+p {
+    font-size: 1.3em;
+    font-family: ROBOTO;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 1.0em;
+    font-family: ROBOTO;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+
+h2 {
+    font-size: 1.0em;
+    font-family: ROBOTO;
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
+
+input {
+    height: 36px;
+    font-size: 1.3em;
+    font-family: ROBOTO;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    float: left;
+}
+
+select {
+    font-family: ROBOTO;
+    height: 36px;
+    font-size: 1.3em;
+    font-family: ROBOTO;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    float: left;
+
+}
+
+label{
+    float: left;
+    font-size: 1.3em;
+    font-family: ROBOTO;
     
 }
