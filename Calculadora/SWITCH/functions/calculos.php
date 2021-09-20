@@ -19,8 +19,7 @@ function calcular($n1, $n2, $tipoCalculo)
     switch ($opcaoCalculo) { 
         case ('SOMAR'): 
             $total = $n1 + $n2;
-            $chkSomar = 'checked';
-            break;
+            $chkSomar = 'checked';break;
 
         case ('SUBTRAIR'):    
             $total = round($n1 - $n2, 3);

@@ -14,8 +14,8 @@ $resultado = (double) 0;
 $valor1 = (double) 0;
 $valor2 = (double) 0;
 $operacao = (string) null;
-$chkSomar = (string) null;
 
+$chkSomar = (string) null;
 $chkSubtrair = (string) null;
 $chkMultiplicar = (string) null;
 $chkDividir = (string) null;
@@ -88,87 +88,74 @@ if(isset($_POST['btncalc']))
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <title>
-            Calculadora - Simples
-        </title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css"      
-              href="css/style.css"> 
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
-        <meta charset="utf-8">
-    </head>
-    <body>
-                <div id="ConteudoMenu">
 
-                <div class="hamburguer">
-                    <span id="ham"></span>
-                    <span id="ham"></span>
-                    <span id="ham"></span>
+<head>
+    <title>
+        Calculadora - Simples
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
 
-                </div>
-            </div>
-       
+<body>
+    <div id="ConteudoMenu">
 
-           
-            <form name="calculos.php" 
-                  method="post" action="">
-                  
-       <header>
-        <h1>
-           Calculadora Simples
-        </h1>
-    </header>
+        <div class="hamburguer">
+            <span id="ham"></span>
+            <span id="ham"></span>
+            <span id="ham"></span>
 
-                <div>
+        </div>
+    </div>
 
-                    <p>Valor 1:<input type="text" name="txtn1" value="<?=$valor1?>"></p>    
-                    <p>Valor 2:<input type="text" name="txtn2" value="<?=$valor2?>"></p>
 
-                </div>
 
-                <div><input class="" type="radio" name="rdocalc" value="somar"   <?php  
+    <form name="calculos.php" method="post" action="">
+
+        <header>
+            <h1>
+                Calculadora Simples
+            </h1>
+        </header>
+
+        <div>
+
+            <p>Valor 1:<input type="text" name="txtn1" value="<?=$valor1?>"></p>
+            <p>Valor 2:<input type="text" name="txtn2" value="<?=$valor2?>"></p>
+
+        </div>
+
+        <div><input class="" type="radio" name="rdocalc" value="somar" <?php  
     if($operacao == 'SOMAR')
         echo('checked');
                             ?>><span>Somar</span></div>
-
-                <div><input class="" type="radio" name="rdocalc" value="subtrair"     
-                            <?php  
+        <div><input class="" type="radio" name="rdocalc" value="subtrair" <?php  
                             if($operacao == 'SUBTRAIR')
                                 echo('checked');
                             ?>><span>Subtrair</span></div>
 
-                <div><input class="" type="radio" name="rdocalc" value="multiplicar" 
-                            <?php  
+        <div><input class="" type="radio" name="rdocalc" value="multiplicar" <?php  
                             if($operacao == 'MULTIPLICAR')
                                 echo('checked');
                             ?>><span>Multiplicar</span></div>
 
-                <div><input class="" type="radio" name="rdocalc" value="dividir"    
-                            <?php  
+        <div><input class="" type="radio" name="rdocalc" value="dividir" <?php  
                             if($operacao == 'DIVIDIR')
                                 echo('checked');
                             ?>><span>Dividir</span></div>
 
-                <div id="button"><input class="button" type="submit" name="btncalc" value="Calcular"></div>
+        <div id="button"><input class="button" type="submit" name="btncalc" value="Calcular"></div>
 
-                <!-- <footer id="resultado">-->
-                <footer id="resultado">
-                    <h2>  <?=$resultado?> </h2> 
-                </footer>   
-            </form>    
-      
-    </body>
+        <!-- <footer id="resultado">-->
+        <footer id="resultado">
+            <h2> <?=$resultado?> </h2>
+        </footer>
+    </form>
+
+</body>
+
 </html>
-
-<!-- 3° - Forma de fazer --> 
-<!--<div><input class="" type="radio" name="rdocalc" value="dividir"  <?= $operacao=='DIVIDIR'? 'checked' : '' ?> ><span>Dividir</span></div> -->
-
-
-
-
-
-
-
